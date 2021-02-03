@@ -18,7 +18,6 @@ class Solution1 {
                 }
             }
         }
-
         return rs;
     }
 }
