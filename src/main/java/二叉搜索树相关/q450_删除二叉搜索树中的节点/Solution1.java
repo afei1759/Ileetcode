@@ -7,7 +7,7 @@ package 二叉搜索树相关.q450_删除二叉搜索树中的节点;
  */
 //二叉排序树的节点删除操作
 public class Solution1 {
-    //返回前驱节点值
+    //返回前驱的节点值
     public int preNode(TreeNode root){
         root=root.left;
         while(root.right!=null) root=root.right;
