@@ -9,7 +9,7 @@ public class Solution1 {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists.length==0) return null;
         if(lists.length==1) return lists[0];
-        //至少两个ListNode数组
+        //至少有两个ListNode数组
         ListNode re=lists[0];
         for(int i=1;i<lists.length;i++){
             re=mergeTwoLists(re,lists[i]);
